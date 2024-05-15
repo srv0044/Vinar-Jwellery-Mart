@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="20dp"/>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <ImageView
+          android:id="@+id/app_name"
+          android:layout_width="228dp"
+          android:layout_height="128dp"
+          android:layout_centerHorizontal="true"
+          android:fontFamily="@font/balsamiq_sans_bold"
+          android:shadowColor="#FFB20C"
+          android:src="@drawable/logo"
+          android:textColor="#FFB20C"
+          android:textSize="24sp" />
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:layout_below="@id/app_name"
+          android:layout_marginLeft="40dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginRight="40dp"
+          android:layout_marginBottom="20dp"
+          android:background="#FFFFFF"
+          android:elevation="8dp">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_marginLeft="15dp"
+             android:text="@string/search_text" />
+
+         <ImageView
+             android:layout_width="30dp"
+             android:layout_height="30dp"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="15dp"
+             android:src="@drawable/search_icon" />
+
+      </RelativeLayout>
+
+      <ImageView
+          android:id="@+id/btn_chatbot"
+          android:layout_width="80dp"
+          android:layout_height="95dp"
+          android:layout_marginLeft="320dp"
+          android:layout_marginTop="500dp"
+          android:clickable="true"
+          android:src="@drawable/ic_chat" />
+   </RelativeLayout>
+</LinearLayout>

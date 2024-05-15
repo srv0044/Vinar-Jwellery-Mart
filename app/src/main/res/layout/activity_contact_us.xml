@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Contact_Us"
+    android:background="#FFB20C">
+
+
+    <TextView
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="20dp"
+        android:text="Contact Us"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/cu_rl1"
+        android:layout_width="match_parent"
+        android:layout_height="674dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="-24dp"
+        android:layout_weight="3"
+        android:background="@color/white"
+        android:elevation="36dp">
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="337dp"
+            android:layout_marginBottom="587dp"
+            android:src="@drawable/addressicon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="249dp"
+            android:layout_marginBottom="626dp"
+            android:text="Address"
+            android:textColor="@color/colorPrimary"
+            android:textSize="23dp" />
+
+
+        <TextView
+            android:layout_width="272dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="61dp"
+            android:layout_marginBottom="564dp"
+            android:text="E-21, Vrundavan Complex, Nr. Subhash Chowk, Gurukul Road, Memnagar Ahmedabad, Gujarat, India 380052"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="335dp"
+            android:layout_marginBottom="469dp"
+            android:src="@drawable/phoneicon" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="265dp"
+            android:layout_marginBottom="494dp"
+            android:text="Phone"
+            android:textColor="@color/colorPrimary"
+            android:textSize="23dp" />
+
+        <TextView
+
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="87dp"
+            android:layout_marginBottom="469dp"
+            android:text="079-23536785,079-12547809"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="335dp"
+            android:layout_marginBottom="370dp"
+            android:src="@drawable/emailicon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="274dp"
+            android:layout_marginBottom="395dp"
+            android:text="Email"
+            android:textColor="@color/colorPrimary"
+            android:textSize="23dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="153dp"
+            android:layout_marginBottom="368dp"
+            android:fontFamily="sans-serif"
+            android:text="vinarjewellers@yahoo.co.in"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
